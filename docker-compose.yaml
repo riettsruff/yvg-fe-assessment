@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  # Development service
+  yvg-fe-assessment-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: yvg-fe-assessment-dev
+    ports:
+      - '5173:5173'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    profiles:
+      - dev
+      - development
+
+  # Production service
+  yvg-fe-assessment-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: yvg-fe-assessment-prod
+    ports:
+      - '8081:80'
+    environment:
+      - NODE_ENV=production
+    profiles:
+      - prod
+      - production
+
+  # Standalone nginx for serving built files
+  nginx:
+    image: nginx:alpine
+    container_name: yvg-fe-assessment-nginx
+    ports:
+      - '8084:80'
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - build
+    profiles:
+      - serve
+
+  # Build service for creating dist files
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    container_name: yvg-fe-assessment-build
+    volumes:
+      - ./dist:/app/dist
+    command: pnpm run build
+    profiles:
+      - serve
+
+networks:
+  default:
+    name: yvg-fe-assessment-network

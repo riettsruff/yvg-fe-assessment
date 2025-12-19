@@ -1,0 +1,13 @@
+node_modules
+dist
+coverage
+.vscode
+.git
+.gitignore
+*.log
+npm-debug.log*
+yarn-error.log
+*.pnpm-debug.log
+*.tsbuildinfo
+*.local
+.DS_Store

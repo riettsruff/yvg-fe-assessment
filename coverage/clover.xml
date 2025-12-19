@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1766108753575" clover="3.2.0">
+  <project timestamp="1766108753575" name="All files">
+    <metrics statements="537" coveredstatements="537" conditionals="232" coveredconditionals="224" methods="151" coveredmethods="151" elements="920" coveredelements="912" complexity="0" loc="537" ncloc="537" packages="18" files="47" classes="47"/>
+    <package name="components">
+      <metrics statements="70" coveredstatements="70" conditionals="50" coveredconditionals="50" methods="17" coveredmethods="17"/>
+      <file name="empty-state.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\empty-state.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+      </file>
+      <file name="error-state.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\error-state.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+      </file>
+      <file name="language-toggle.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\language-toggle.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="layout.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\layout.tsx">
+        <metrics statements="33" coveredstatements="33" conditionals="25" coveredconditionals="25" methods="11" coveredmethods="11"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="12" type="stmt"/>
+        <line num="39" count="12" type="stmt"/>
+        <line num="40" count="12" type="stmt"/>
+        <line num="41" count="12" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="44" count="12" type="stmt"/>
+        <line num="46" count="12" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="48" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="59" count="12" type="stmt"/>
+        <line num="101" count="24" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="162" count="4" type="stmt"/>
+        <line num="165" count="1" type="stmt"/>
+      </file>
+      <file name="loading-state.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\loading-state.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="nav-link.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\nav-link.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+      </file>
+      <file name="theme-toggle.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\theme-toggle.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="components.core">
+      <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="button.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\core\button.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="38" count="11" type="stmt"/>
+        <line num="40" count="41" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="48" count="41" type="stmt"/>
+      </file>
+      <file name="input.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\components\core\input.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="contexts">
+      <metrics statements="44" coveredstatements="44" conditionals="25" coveredconditionals="25" methods="14" coveredmethods="14"/>
+      <file name="locale-context.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\contexts\locale-context.tsx">
+        <metrics statements="44" coveredstatements="44" conditionals="25" coveredconditionals="25" methods="14" coveredmethods="14"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="28" count="8" type="cond" truecount="3" falsecount="0"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+        <line num="38" count="19" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="13" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="5" type="cond" truecount="5" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="58" count="8" type="stmt"/>
+        <line num="59" count="12" type="stmt"/>
+        <line num="61" count="12" type="stmt"/>
+        <line num="62" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="12" type="stmt"/>
+        <line num="64" count="12" type="stmt"/>
+        <line num="68" count="12" type="stmt"/>
+        <line num="69" count="12" type="stmt"/>
+        <line num="70" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="7" type="stmt"/>
+        <line num="72" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="74" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="75" count="6" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="82" count="12" type="stmt"/>
+        <line num="83" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="85" count="12" type="stmt"/>
+        <line num="86" count="12" type="stmt"/>
+        <line num="98" count="16" type="stmt"/>
+        <line num="99" count="16" type="stmt"/>
+        <line num="100" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="101" count="4" type="stmt"/>
+        <line num="103" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="114" coveredstatements="114" conditionals="44" coveredconditionals="44" methods="38" coveredmethods="38"/>
+      <file name="use-mobile.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\hooks\use-mobile.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="use-theme.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\hooks\use-theme.ts">
+        <metrics statements="43" coveredstatements="43" conditionals="28" coveredconditionals="28" methods="14" coveredmethods="14"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="10" type="cond" truecount="3" falsecount="0"/>
+        <line num="9" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="15" type="cond" truecount="3" falsecount="0"/>
+        <line num="14" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="13" type="stmt"/>
+        <line num="31" count="13" type="stmt"/>
+        <line num="32" count="13" type="stmt"/>
+        <line num="33" count="13" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="58" count="9" type="stmt"/>
+        <line num="59" count="9" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="65" count="9" type="stmt"/>
+        <line num="66" count="9" type="stmt"/>
+        <line num="69" count="9" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="73" count="9" type="stmt"/>
+        <line num="74" count="9" type="stmt"/>
+        <line num="75" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="9" type="stmt"/>
+      </file>
+      <file name="use-toast.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\hooks\use-toast.ts">
+        <metrics statements="59" coveredstatements="59" conditionals="16" coveredconditionals="16" methods="20" coveredmethods="20"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="68" count="4" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
+        <line num="72" count="17" type="cond" truecount="4" falsecount="0"/>
+        <line num="74" count="5" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="82" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="6" type="stmt"/>
+        <line num="90" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="5" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="98" count="6" type="stmt"/>
+        <line num="101" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="111" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="119" count="2" type="stmt"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="129" count="14" type="stmt"/>
+        <line num="130" count="14" type="stmt"/>
+        <line num="131" count="13" type="stmt"/>
+        <line num="135" count="7" type="stmt"/>
+        <line num="136" count="7" type="stmt"/>
+        <line num="137" count="7" type="stmt"/>
+        <line num="138" count="7" type="stmt"/>
+        <line num="139" count="7" type="stmt"/>
+        <line num="140" count="7" type="stmt"/>
+        <line num="146" count="5" type="stmt"/>
+        <line num="148" count="5" type="stmt"/>
+        <line num="149" count="1" type="stmt"/>
+        <line num="153" count="5" type="stmt"/>
+        <line num="155" count="5" type="stmt"/>
+        <line num="162" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="167" count="5" type="stmt"/>
+        <line num="175" count="18" type="stmt"/>
+        <line num="177" count="18" type="stmt"/>
+        <line num="178" count="18" type="stmt"/>
+        <line num="179" count="18" type="stmt"/>
+        <line num="180" count="18" type="stmt"/>
+        <line num="181" count="18" type="cond" truecount="1" falsecount="0"/>
+        <line num="182" count="17" type="stmt"/>
+        <line num="187" count="18" type="stmt"/>
+        <line num="190" count="3" type="stmt"/>
+        <line num="194" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="locales">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="en.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\locales\en.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+      </file>
+      <file name="id.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\locales\id.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\locales\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.post.api">
+      <metrics statements="25" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="index.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\api\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="keys.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\api\keys.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="service.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\api\service.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.post.components">
+      <metrics statements="28" coveredstatements="28" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
+      <file name="comments-list.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\components\comments-list.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+      <file name="comments-skeleton.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\components\comments-skeleton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+      </file>
+      <file name="post-card.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\components\post-card.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="post-detail-skeleton.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\components\post-detail-skeleton.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+      </file>
+      <file name="post-list.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\components\post-list.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="post-search.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\components\post-search.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="posts-skeleton.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\components\posts-skeleton.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.post.hooks">
+      <metrics statements="59" coveredstatements="59" conditionals="29" coveredconditionals="23" methods="13" coveredmethods="13"/>
+      <file name="use-post-detail-vm.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\hooks\use-post-detail-vm.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="13" coveredconditionals="13" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="53" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="56" count="2" type="stmt"/>
+      </file>
+      <file name="use-posts-page-vm.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\hooks\use-posts-page-vm.ts">
+        <metrics statements="31" coveredstatements="31" conditionals="16" coveredconditionals="10" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="50" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="4" type="stmt"/>
+        <line num="55" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.post.model">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\model\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="schema.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\model\schema.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.post.pages">
+      <metrics statements="44" coveredstatements="44" conditionals="28" coveredconditionals="28" methods="9" coveredmethods="9"/>
+      <file name="post-detail-page.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\pages\post-detail-page.tsx">
+        <metrics statements="24" coveredstatements="24" conditionals="15" coveredconditionals="15" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="22" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="32" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="51" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="5" type="stmt"/>
+        <line num="64" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="68" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="79" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="167" count="10" type="stmt"/>
+      </file>
+      <file name="posts-page.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\post\pages\posts-page.tsx">
+        <metrics statements="20" coveredstatements="20" conditionals="13" coveredconditionals="13" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="31" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="42" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="120" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.todo.components">
+      <metrics statements="32" coveredstatements="32" conditionals="21" coveredconditionals="21" methods="10" coveredmethods="10"/>
+      <file name="todo-filter-tabs.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\components\todo-filter-tabs.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="35" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+      <file name="todo-form.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\components\todo-form.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+      </file>
+      <file name="todo-item.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\components\todo-item.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+      </file>
+      <file name="todo-list.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\components\todo-list.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="35" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.todo.hooks">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="index.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\hooks\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="use-todos-page-vm.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\hooks\use-todos-page-vm.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.todo.model">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <file name="helpers.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\model\helpers.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\model\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.todo.pages">
+      <metrics statements="25" coveredstatements="25" conditionals="9" coveredconditionals="9" methods="7" coveredmethods="7"/>
+      <file name="todos-page.tsx" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\pages\todos-page.tsx">
+        <metrics statements="25" coveredstatements="25" conditionals="9" coveredconditionals="9" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="105" count="4" type="stmt"/>
+        <line num="106" count="4" type="stmt"/>
+        <line num="119" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.todo.services">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\services\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="todos-storage.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\services\todos-storage.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.todo.store">
+      <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="4" methods="8" coveredmethods="8"/>
+      <file name="index.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\store\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="todos-slice.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\modules\todo\store\todos-slice.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="4" methods="8" coveredmethods="8"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.config">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="api.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\shared\config\api.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="10" type="cond" truecount="3" falsecount="0"/>
+        <line num="20" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="cn.ts" path="C:\Users\motoc\Projects\technical-test\y-ventures-group\yvg-fe-assessment\src\utils\cn.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="15" type="stmt"/>
+        <line num="2" count="15" type="stmt"/>
+        <line num="4" count="121" type="stmt"/>
+        <line num="5" count="121" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

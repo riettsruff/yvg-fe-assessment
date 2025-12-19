@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# This project is private and should not be indexed or crawled.
